@@ -1,0 +1,65 @@
+[class*="col-"] {
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+.h1{
+background-color: greenyellow;
+color: gold;
+height: 100px;
+background-image: url(../images/images.jpg);
+font-family: 'Alfa Slab One', cursive;
+}
+.header{
+width: 100%;
+height: auto;
+background-color: blue;
+text-align: center;
+}
+.menu li {
+width: auto;
+padding: 10px;
+margin-bottom: 7px;
+background-color: rgb(28, 7, 119);
+color: white;
+}
+.een {
+background-color: rgb(20, 38, 205);
+color: white;
+padding: 10px;
+}
+.twee {
+background-color: rgb(51, 68, 223);
+color: white;
+padding: 10px;
+}
+img{
+float: right;
+width: 20%;
+margin-right: 5px;
+border-radius: 5px;
+border: 2px solid rgb(227, 40, 53);
+padding: 5px;
+}
+.ft {
+background-color: #3399FF;
+text-align: center;
+color: white;
+padding: 5px;
+}
